@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "netgen/better-ibexa-admin-ui": {
+            "manifest": {
+                "bundles": {
+                    "Netgen\\Bundle\\BetterIbexaAdminUIBundle\\NetgenBetterIbexaAdminUIBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/netgen_better_ibexa_admin_ui.yaml": {
+                    "contents": [
+                        "netgen_better_ibexa_admin_ui:",
+                        "    resource: '@NetgenBetterIbexaAdminUIBundle/Resources/config/routing.yaml",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "c6838b19b3167381a8a66993adec0290ed5419c6"
+        }
+    }
+}
