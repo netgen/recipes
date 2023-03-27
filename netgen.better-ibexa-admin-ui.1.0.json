@@ -15,13 +15,13 @@
                 "config/routes/netgen_better_ibexa_admin_ui.yaml": {
                     "contents": [
                         "netgen_better_ibexa_admin_ui:",
-                        "    resource: '@NetgenBetterIbexaAdminUIBundle/Resources/config/routing.yaml",
+                        "    resource: \"@NetgenBetterIbexaAdminUIBundle/Resources/config/routing.yaml\"",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "c6838b19b3167381a8a66993adec0290ed5419c6"
+            "ref": "777c670c9f717ade773d2fbe642f728d506cfd0a"
         }
     }
 }
