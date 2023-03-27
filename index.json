@@ -3,6 +3,9 @@
     "recipes": {
         "netgen/better-ibexa-admin-ui": [
             "1.0"
+        ],
+        "netgen/tagsbundle": [
+            "5.0"
         ]
     },
     "recipe-conflicts": [],

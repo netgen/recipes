@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "netgen/tagsbundle": {
+            "manifest": {
+                "bundles": {
+                    "Netgen\\TagsBundle\\NetgenTagsBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/netgen_tags.yaml": {
+                    "contents": [
+                        "netgen_tags:",
+                        "    resource: \"@NetgenTagsBundle/Resources/config/routing.yaml\"",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "f1f63eae68964971718027b760b7e00b95ebc6c8"
+        }
+    }
+}
