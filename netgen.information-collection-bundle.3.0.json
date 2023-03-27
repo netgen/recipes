@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "netgen/information-collection-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Netgen\\Bundle\\InformationCollectionBundle\\NetgenInformationCollectionBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/netgen_information_collection.yaml": {
+                    "contents": [
+                        "netgen_information_collection:",
+                        "    resource: \"@NetgenInformationCollectionBundle/Resources/config/routing.yaml\"",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "0819df803b5edbe61570eac2329c36c6549ea6cd"
+        }
+    }
+}
