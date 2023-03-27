@@ -4,6 +4,9 @@
         "netgen/better-ibexa-admin-ui": [
             "1.0"
         ],
+        "netgen/site-bundle": [
+            "3.1"
+        ],
         "netgen/tagsbundle": [
             "5.0"
         ]

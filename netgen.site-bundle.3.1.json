@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "netgen/site-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Netgen\\Bundle\\SiteBundle\\NetgenSiteBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/netgen_site.yaml": {
+                    "contents": [
+                        "netgen_site:",
+                        "    resource: \"@NetgenSiteBundle/Resources/config/routing.yaml\"",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "2d264f9360c6a4c80e7105e6b0bea0d4f6a12a42"
+        }
+    }
+}
