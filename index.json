@@ -1,0 +1,20 @@
+{
+    "aliases": [],
+    "recipes": {
+        "netgen/better-ibexa-admin-ui": [
+            "1.0"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": [],
+    "branch": "master",
+    "is_contrib": false,
+    "_links": {
+        "repository": "github.com/netgen/recipes",
+        "origin_template": "{package}:{version}@github.com/netgen/recipes:master",
+        "recipe_template": "https://raw.githubusercontent.com/netgen/recipes/flex/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/netgen/recipes/flex/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
+}
