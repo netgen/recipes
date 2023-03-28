@@ -9,6 +9,13 @@
                 },
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "#1": "Defines which config files will be loaded from config/app/server folder",
+                    "SERVER_ENVIRONMENT": "dev",
+                    "#2": "",
+                    "#3": "Empty string for API key means that MailerLite newsletter integration is disabled",
+                    "MAILER_LITE_API_KEY": ""
                 }
             },
             "files": {
@@ -21,7 +28,7 @@
                     "executable": false
                 }
             },
-            "ref": "2d264f9360c6a4c80e7105e6b0bea0d4f6a12a42"
+            "ref": "b9370dcad28b0aa2865ca0b7c5dab3abddc51ff1"
         }
     }
 }
