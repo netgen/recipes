@@ -10,20 +10,23 @@
         "netgen/site-bundle": [
             "3.1"
         ],
+        "netgen/symfony-skeleton": [
+            "1.0"
+        ],
         "netgen/tagsbundle": [
             "5.0"
         ]
     },
     "recipe-conflicts": [],
     "versions": [],
-    "branch": "master",
+    "branch": "symfony-skeleton-test",
     "is_contrib": false,
     "_links": {
         "repository": "github.com/netgen/recipes",
-        "origin_template": "{package}:{version}@github.com/netgen/recipes:master",
-        "recipe_template": "https://raw.githubusercontent.com/netgen/recipes/flex/{package_dotted}.{version}.json",
+        "origin_template": "{package}:{version}@github.com/netgen/recipes:symfony-skeleton-test",
+        "recipe_template": "https://raw.githubusercontent.com/netgen/recipes/flex-test/{package_dotted}.{version}.json",
         "recipe_template_relative": "{package_dotted}.{version}.json",
-        "archived_recipes_template": "https://raw.githubusercontent.com/netgen/recipes/flex/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/netgen/recipes/flex-test/archived/{package_dotted}/{ref}.json",
         "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }
