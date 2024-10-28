@@ -4,7 +4,7 @@ on:
     workflow_call:
         inputs:
             branch:
-                default: master
+                default: symfony-skeleton-test
                 required: false
                 type: string
 
@@ -35,10 +35,10 @@ jobs:
                 name: Update Flex endpoint
                 run: |
                     mkdir .github/flex-endpoint
-                    git ls-tree HEAD */*/* | php .github/recipes-checker-main/run generate:flex-endpoint ${{ github.repository }} master flex .github/flex-endpoint
-                    git switch flex
+                    git ls-tree HEAD */*/* | php .github/recipes-checker-main/run generate:flex-endpoint ${{ github.repository }} symfony-skeleton-test flex-test .github/flex-endpoint
+                    git switch flex-test
                     git rm -q *.json
                     mv .github/flex-endpoint/*.json .
                     git add *.json
                     git commit -m 'Update Flex endpoint' || true
-                    git push origin -f flex
+                    git push origin -f flex-test

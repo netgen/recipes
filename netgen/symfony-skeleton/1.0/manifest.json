@@ -1,0 +1,12 @@
+{
+  "copy-from-recipe": {
+    "config/captainhook.json": "captainhook.json",
+    "config/Makefile": "Makefile",
+    "config/.nvmrc": ".nvmrc",
+    "config/.php-cs-fixer.php": ".php-cs-fixer.php",
+    "public/": "%PUBLIC_DIR%/"
+  },
+  "env": {
+    "CACHE_DSN": "redis://localhost"
+  }
+}

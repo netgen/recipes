@@ -1,0 +1,14 @@
+name: Update Flex endpoint - test
+
+on:
+    push:
+        branches:
+            - symfony-skeleton-test
+
+defaults:
+    run:
+        shell: bash
+
+jobs:
+    call-flex-update:
+        uses: netgen/recipes/.github/workflows/callable-flex-update.yml@symfony-skeleton-test
