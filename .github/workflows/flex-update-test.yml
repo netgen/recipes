@@ -11,4 +11,4 @@ defaults:
 
 jobs:
     call-flex-update:
-        uses: netgen/recipes/.github/workflows/callable-flex-update.yml@symfony-skeleton-test
+        uses: netgen/recipes/.github/workflows/callable-flex-update-test.yml@symfony-skeleton-test
