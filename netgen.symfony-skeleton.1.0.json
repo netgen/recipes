@@ -6,8 +6,7 @@
                     "config/captainhook.json": "captainhook.json",
                     "config/Makefile": "Makefile",
                     "config/.nvmrc": ".nvmrc",
-                    "config/.php-cs-fixer.php": ".php-cs-fixer.php",
-                    "public/": "%PUBLIC_DIR%/"
+                    "config/.php-cs-fixer.php": ".php-cs-fixer.php"
                 },
                 "env": {
                     "CACHE_DSN": "redis://localhost"
@@ -273,7 +272,7 @@
                     "executable": false
                 }
             },
-            "ref": "4dc92631897b1d4ed13ac009b296ea2f69da7b0a"
+            "ref": "445c27833d2dca03d39f55ba3127e792edd799d5"
         }
     }
 }
