@@ -3,7 +3,8 @@
     "config/captainhook.json": "captainhook.json",
     "config/Makefile": "Makefile",
     "config/.nvmrc": ".nvmrc",
-    "config/.php-cs-fixer.php": ".php-cs-fixer.php"
+    "config/.php-cs-fixer.php": ".php-cs-fixer.php",
+    "config/.htaccess_dev": "public/.htaccess_dev"
   },
   "env": {
     "CACHE_DSN": "redis://localhost"
