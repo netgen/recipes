@@ -116,6 +116,7 @@
                         "        'native_function_invocation' => ['include' => ['@all']],",
                         "        'no_superfluous_phpdoc_tags' => false,",
                         "        'no_unset_on_property' => false,",
+                        "        'operator_linebreak' => false,",
                         "        'ordered_imports' => ['imports_order' => ['class', 'function', 'const'], 'sort_algorithm' => 'alpha'],",
                         "        'ordered_types' => ['null_adjustment' => 'always_last', 'sort_algorithm' => 'alpha'],",
                         "        'php_unit_internal_class' => false,",
@@ -291,7 +292,7 @@
                         "            {",
                         "                \"action\": \"\\\\Netgen\\\\GitHooks\\\\Action\\\\PHPCSFixer\",",
                         "                \"options\": {",
-                        "                    \"excluded_files\": [\"deploy.php\", \"/^deploy.*/\", \"config/bundles.php\"],",
+                        "                    \"excluded_files\": [\"deploy.php\", \"/^deploy.*/\", \"config/bundles.php\", \".php-cs-fixer.dist.php\"],",
                         "                    \"fixer_path\": \"vendor/bin/php-cs-fixer\"",
                         "                }",
                         "            },",
@@ -346,7 +347,7 @@
                     "executable": false
                 }
             },
-            "ref": "6de387ca3875b0b0f2fa89427b791db3ed31c281"
+            "ref": "e6e72e08cf12bebb1f8dc569f1becc307261faf0"
         }
     }
 }
